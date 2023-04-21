@@ -1,5 +1,30 @@
 div {
-    color:navy;
+    color: white;
     position: relative;
     width: 100%;
 }
+
+.card-container {
+    position: relative;
+    width: 33%;
+    height: 100%;
+  }
+  .card-image {
+    position: absolute;
+    
+    
+  }
+  .card-body {
+    position: absolute;
+    width: 100%;
+    background: black;
+    opacity: 0.8;
+    color: white;
+    top: 8rem;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: roboto;
+  }
+  .card-heading {
+    position: absolute;
+  }
