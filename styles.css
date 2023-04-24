@@ -1,17 +1,67 @@
-div {
-    color: white;
-    position: relative;
-    width: 100%;
+:root{
+  --color: #e6007e;
+  --txt: rgb(185, 185, 185)
 }
 
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  color: var(--txt);
+  outline: 1px solid red
+}
+
+.content{
+  width: 100vw;
+  height: 100vh;
+  
+}
+
+/*left side */
+
+.card-image{
+  background-image: url(foliage.avif);
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 40vw;
+}
+
+/* right side */
+
+.right{
+  width: 60vw;
+  background-color: #0263f6;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+.form{
+  background-color: aquamarine;
+}
+
+/*
+div {
+  color: white;
+  position: relative;
+  width: 100%;
+}
+.content {
+  width: 100vw;
+  height: 100vh;
+}
 .card-container {
     position: relative;
-    width: 33%;
+    width: auto;
     height: 100%;
   }
   .card-image {
     position: absolute;
-    
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
     
   }
   .card-body {
